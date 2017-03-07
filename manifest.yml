@@ -1,0 +1,9 @@
+applications:
+- path: target/TomcatHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: ServletWebapp1
+  host: ServletWebapp1
+  disk_quota: 1024M
+  buildpack: java_buildpack
